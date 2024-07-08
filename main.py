@@ -1,5 +1,7 @@
-a = 7   # create variable
-b = 8
+for i in range(10):
+    print(i)
+
+a, b = 5, 8
 
 if a > b:
     print("a is bigger")
